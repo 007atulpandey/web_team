@@ -2,7 +2,11 @@ img:hover{
  opacity: 70%;
  
 }
-
+.flex{
+    display : inline-flex;
+    justify-content: left;
+    align-content:flex-start;
+}
 .header-name{
     top: 50px;
     left:25%;

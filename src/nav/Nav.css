@@ -14,6 +14,20 @@
     
    
 }
+.footer{
+    min-height: 10rem;
+    background: rgb(186,192,255);
+background: linear-gradient(90deg, rgba(186,192,255,1) 0%, rgba(0,8,144,1) 50%, rgba(118,187,255,1) 100%);
+
+}
+.copyright{
+   font-size: 2rem;
+   color:white;
+   padding-left: 4rem;
+   padding-top: 3rem;
+   margin-left: 4rem;
+  
+}
 
 .join{
     background-color: blue;

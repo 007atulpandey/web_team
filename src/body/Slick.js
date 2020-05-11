@@ -21,7 +21,7 @@ export default class Slick extends Component {
       < div  className="container hand  mt-4 mb-5  " style={{"text-align":"right"}}>
         <h2 className ="heading-com"> From the Coursera community</h2>
         <Slider {...settings}>
-          <div style={{"background-image":"linear-gradient(90deg, rgba(7,13,74,1) 3%, rgba(255,0,0,1) 18%, rgba(255,0,108,1) 75%, rgba(255,0,164,1) 100%)"}} >
+          <div >
             <h3>4</h3>
             
             <img className="image"  src="https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://coursera_assets.s3.amazonaws.com/front-page-story/social-proof/kara.png?auto=format%2Ccompress&dpr=1&w=270&h="/>
