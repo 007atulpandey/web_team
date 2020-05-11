@@ -1,0 +1,18 @@
+img:hover{
+ opacity: 70%;
+ 
+}
+
+.header-name{
+    top: 50px;
+    left:25%;
+    bottom: auto;
+    display: block;
+    font-family: inherit;
+    position: absolute;
+  
+    font-weight: 400;
+    line-height: 36px;
+    color: #fff;
+    margin: 0;
+}

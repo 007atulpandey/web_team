@@ -1,0 +1,129 @@
+.color{
+
+    color: red;
+    font-weight: bold ;
+    font-family: cursive;
+}
+
+#navid{
+    width: 100%;
+}
+.Navb{
+     width: 100%;
+    position: fixed;
+    
+   
+}
+
+.join{
+    background-color: blue;
+    color:white;
+
+}
+#login{
+    color:blue;
+}
+.margin3{
+
+    margin-right:3em; 
+    
+}
+.nav-pos{
+    margin-top:0%;
+    margin-left: 0%;
+    margin-right: 0%;
+    width:100%;
+    z-index: 5;
+    display:flex;
+    position: fixed;
+   
+}
+
+.Nav-align{
+    display: flex;
+}
+.Search{
+ 
+     float:left ;
+}
+.bannerdiv{
+   
+    height:100%;
+
+}
+.bannerhead{
+    z-index:2;
+    text-align: left;
+    margin-top: 4em;
+    float:left;
+    margin-left:2em;
+    color:white;
+    font-size: 40px;
+    font-weight: bold;
+    position: relative;
+
+
+
+}
+.bannerbody{
+    position: relative;
+    z-index:2;
+    text-align: left;
+    margin-left:4em;
+    display: flex;
+    width: 50px;
+    height: fit-content;
+    color:white;
+    font-size: 20px;
+    font-weight: bold;
+    
+
+
+
+}
+
+
+
+.banner{
+
+    background-image:url('https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://coursera_assets.s3.amazonaws.com/front-page-story/hero-banner/robot-girl.jpg?auto=format%2Ccompress&dpr=1');
+
+    background-position: 50%;
+    background-size: cover;
+    height: 500px;
+    left: 0;
+    position: relative;
+    top: 0;
+    width: 100%;
+    z-index: 0;
+}
+
+
+
+.btn-search{
+     
+     width:fit-content;
+     height:40px;
+     margin-top:2em;
+     display: flex;
+     margin-left: 5em;
+     background-color: blue;
+     color:white;
+     font-family: 'Courier New', Courier, monospace;
+     border-right-width: 0ch;
+     position: relative;
+    
+}
+.btn-search:hover{
+    background-color: white;
+    color:blue;
+}
+.background{
+    background: linear-gradient(90deg,#271066,rgba(39,16,102,0) 55%,rgba(39,16,102,0) 70%,#271066);
+    height: 100%;
+    left: 0;
+    position: relative;
+    top: 0;
+    width: 100%;
+    z-index: 2;
+}

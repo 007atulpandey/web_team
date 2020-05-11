@@ -1,0 +1,80 @@
+.company{
+    display: list-item;
+  
+    width: 100%;
+    z-index: 100;
+}
+.heading{
+    font-size: 2rem;
+    margin-top: 6rem;
+     margin-bottom: 4em;
+    font-family:   sans-serif;
+}
+
+.image{
+    padding-left:18%;
+}
+
+.hand:hover{
+ cursor:pointer;
+}
+
+.heading-com{
+
+    margin-top:2rem;
+    margin-bottom: 2rem;
+    color:blue;
+    text-align: center;
+    margin-left:-3em;
+}
+
+.company-link{
+    
+    font-size:20px;
+    
+
+    font-family:cursive;
+    width: 100%;
+}
+.heading-data{
+    font-size: 30px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color:grey;
+    text-align: center;
+    margin-top: 4em;
+
+}
+.logos{
+     margin-top: 1em;
+     display: flex ;
+     width: 100%;
+    
+
+
+}
+
+.half-back{
+    height: 400px;
+    width: 100%;
+    z-index: 2;
+   background-image: url("https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://s3.amazonaws.com/coursera_assets/front-page-story/achieve-your-goals/promoStat.png?auto=format%2Ccompress&dpr=1&w=&h=250");
+    background-position-y: 50%;
+    background-repeat: no-repeat;
+}
+
+.half-text{
+    color:white;
+   padding-top: 30px;
+
+}
+.btn-check{
+  height: 4em;
+  background-color: white;
+  color:blue;
+  font-weight: bold;
+}
+.btn-check:hover{
+    background-color: blue;
+    color:white;
+    
+}
