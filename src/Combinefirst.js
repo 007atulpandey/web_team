@@ -7,7 +7,7 @@ import Banner from './nav/banner'
 import Company from './body/Company'
 import Bodybanner from './body/Bodybanner'
 import Slick from './body/Slick'
-import Footer from './nav/Footer'
+import Foot from './nav/Foot'
 function Combine(){
 
     return (
@@ -19,7 +19,7 @@ function Combine(){
       <Color/>
       <Bodybanner/>
       <Slick/>
-      <Footer/>
+      <Foot/>
             </div>
 
     )

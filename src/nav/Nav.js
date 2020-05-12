@@ -58,6 +58,11 @@ class Nav extends React.Component{
   document.getElementById("main").classList.remove('hidden')}} className="link" to="/explore"> Explore   </Link></a>
               <a href="#">SignUp</a>
               <a href="#">Login</a>
+          <form class="form-inline mt-3 ">
+            <input value={this.state.value} onChange={this.handle} class="form-control  " type="search" size="10" placeholder="What do you want to learn?" aria-label="Search"/>
+           <center> <button onClick ={()=>{alert(this.state.value + "Not  Found")}} class="btn my-2 my-sm-0" type="submit"><i className="fa fa-search">  </i></button>
+          </center></form>
+         
 </div>
 
  
