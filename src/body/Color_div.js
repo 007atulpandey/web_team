@@ -5,7 +5,7 @@ function Color(){
  
     return (
 
-        <div style={{"height":"400px","width":"100%","background-color":"grey"}}>
+        <div className="colordivi" >
         <div className="container">
         <div className="row half-back" >
         <div className="col-md-6 ">

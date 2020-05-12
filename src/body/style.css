@@ -1,7 +1,6 @@
 .company{
-    display: list-item;
-  
-    width: 100%;
+    display: inline;
+    overflow: scroll;  
     z-index: 100;
 }
 .heading{
@@ -77,4 +76,18 @@
     background-color: blue;
     color:white;
     
+}
+
+.colordivi{
+    height:400px;
+    width:100%;
+    background-color: grey;
+   }
+
+   @media screen and (max-width: 768px){
+    .colordivi{
+        height:500px;
+        width:100%;
+    background-color: grey;
+    }
 }
