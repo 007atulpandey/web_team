@@ -12,6 +12,7 @@ function Combine(){
 
     return (
         <div>
+            
             <Nav/>
              <Banner />
       <Company/>

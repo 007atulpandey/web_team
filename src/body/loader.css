@@ -1,0 +1,142 @@
+
+.loader{
+   min-height:100%;
+    min-width:100%;
+    top:0;
+    left: 0;
+    
+    position: absolute;
+    animation: animm 6s  ;
+}
+#logo {
+    position: absolute;
+    top:50%;
+    left:50%;
+    width: 400px;
+    height: 400px;
+    transform: translate(-50%,-50%);
+    animation: fill 1s ease forwards 4s;
+}
+
+#logo .path:nth-child(1){
+  
+    stroke-dasharray: 600px;
+    stroke-dashoffset: 600px;
+    animation: line-anim 3s ease forwards;
+     
+
+}
+
+#logo path:nth-child(2){
+
+    stroke-dasharray: 400px;
+    stroke-dashoffset: 400px;
+    animation: line-anim 3s ease forwards 0.3s;
+}
+
+#logo path:nth-child(3){
+
+
+    stroke-dasharray: 500px;
+    stroke-dashoffset: 500px;
+    animation: line-anim 3s ease forwards 0.6s;
+
+}
+
+#logo path:nth-child(4){
+
+    stroke-dasharray: 500px;
+    stroke-dashoffset: 500px;
+    animation: line-anim 3s ease forwards 0.9s;
+
+
+
+}
+
+#logo path:nth-child(5){
+    
+    stroke-dasharray: 500px;
+    stroke-dashoffset: 500px;
+    animation: line-anim 3s ease forwards 1.2s;
+
+
+}
+
+#logo path:nth-child(6){
+
+    
+    stroke-dasharray: 500px;
+    stroke-dashoffset: 500px;
+
+    animation: line-anim 3s ease forwards 1.5s;
+}
+
+#logo path:nth-child(7){
+
+    
+    stroke-dasharray: 620px;
+    stroke-dashoffset: 620px;
+    animation: line-anim 3s ease forwards 1.8s;
+
+}
+
+#logo path:nth-child(8){
+
+    
+    stroke-dasharray: 500px;
+    stroke-dashoffset: 500px;
+    animation: line-anim 3s ease forwards 2.1s;
+
+}
+
+#logo path:nth-child(9){
+
+
+    stroke-dasharray: 500px;
+    stroke-dashoffset: 500px;
+    animation: line-anim 3s ease forwards 2.4s;
+
+}
+
+#logo path:nth-child(10){
+    
+    stroke-dasharray: 500px;
+    stroke-dashoffset: 500px;
+    animation: line-anim 3s ease forwards 2.7s;
+
+
+}
+
+
+
+@keyframes line-anim{
+    to{
+        stroke-dashoffset:0;
+    }
+}
+
+
+@keyframes fill{
+    
+    to{
+        fill: red;
+        width: 0%;
+        z-index: -1;
+    }
+}
+
+@keyframes animm{
+    from{
+        
+        z-index: 2000;
+        background-color: black;
+        }
+    to{
+        width: 0%;
+        height: 0%;
+        z-index:-1;
+    }
+}
+
+
+
