@@ -17,6 +17,7 @@ export default class Slick extends Component {
       };
       const s = "<<-- scroll  -->>";
     return (
+  
    
       < div  className="container hand  mt-4 mb-5  " style={{"text-align":"right"}}>
         <h2 className ="heading-com"> From the Coursera community</h2>
